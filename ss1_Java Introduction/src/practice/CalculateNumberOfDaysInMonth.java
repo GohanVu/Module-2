@@ -1,8 +1,8 @@
-package Practice;
+package practice;
 
 import java.util.Scanner;
 
-public class tinh_so_ngay_trong_thang_v2023 {
+public class CalculateNumberOfDaysInMonth {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Which month that you want to count days? :");

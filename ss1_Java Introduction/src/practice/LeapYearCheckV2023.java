@@ -1,4 +1,4 @@
-package Practice;
+package practice;
 
 import java.util.Scanner;
 
@@ -23,7 +23,7 @@ import java.util.Scanner;
 //        }
 //    }
 //}
-public class kiem_tra_nam_nhuan_v2023 {
+public class LeapYearCheckV2023 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int year;

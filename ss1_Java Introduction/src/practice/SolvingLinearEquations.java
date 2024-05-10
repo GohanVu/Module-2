@@ -1,8 +1,8 @@
-package Practice;
+package practice;
 
 import java.util.Scanner;
 
-public class giai_phuong_trinh_bac_nhat_v2023 {
+public class SolvingLinearEquations {
     public static void main(String[] args) {
         System.out.println("Linear Equation Resolver");
         System.out.println("Given a equation as 'a * x + b = c, please enter constants: ");

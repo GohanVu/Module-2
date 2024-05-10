@@ -1,8 +1,8 @@
-package Practice;
+package practice;
 
 import java.util.Scanner;
 
-public class su_dung_toan_tu_v2023 {
+public class UsingOperatorsV2023 {
     public static void main(String[] args) {
         float width ;
         float height ;

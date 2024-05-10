@@ -1,8 +1,8 @@
-package Practice;
+package practice;
 
 import java.util.Scanner;
 
-public class tinh_chi_so_can_nang_co_the_v2023 {
+public class CalculateBodyIndexV2023 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         double weight, height , bmi ;
