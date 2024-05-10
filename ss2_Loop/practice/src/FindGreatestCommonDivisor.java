@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class tim_uoc_so_chung_lon_nhat_v2023 {
+public class FindGreatestCommonDivisor {
     public static void main(String[] args) {
         int a;
         int b;

@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class thiet_ke_menu_cho_ung_dung_v2023 {
+public class DesignMenuForAppV2023 {
     public static void main(String[] args) {
         int choice = -1;
         Scanner scanner = new Scanner(System.in);

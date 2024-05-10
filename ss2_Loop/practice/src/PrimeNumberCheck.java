@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class kiem_tra_so_nguyen_v2023 {
+public class PrimeNumberCheck {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter a number: ");

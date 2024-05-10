@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class ung_dung_tinh_tien_lai_cho_vay_v2023 {
+public class CalculateLoanInterestApp {
     public static void main(String[] args) {
         double money = 1.0;
         int month = 1;
