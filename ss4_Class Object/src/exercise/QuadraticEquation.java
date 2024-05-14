@@ -3,7 +3,7 @@ package exercise;
 import java.util.Scanner;
 
 public class QuadraticEquation {
-    double a;
+    double  a;
     double b;
     double c;
     public QuadraticEquation (double a , double b, double c){
@@ -30,7 +30,7 @@ public class QuadraticEquation {
     public void setC(double c) {
         this.c = c;
     }
-    public double getDiscriminant(){
+    public  double getDiscriminant(){
         return b*b - 4*a*c ;
 
     }
