@@ -1,16 +1,15 @@
 public abstract class Book {
-    private int bookCode;
-    private String name;
-    private double price ;
-    private String author;
-
-    public Book(int bookCode, String name, double price, String author) {
-        this.bookCode = bookCode;
+    private int bookCode ;
+    private String name ;
+    private double price;
+    private String author ;
+    
+    public Book ( int bookCode, String name, double price, String author){
+        this.bookCode = bookCode ;
         this.name = name;
         this.price = price;
         this.author = author;
     }
-
     public int getBookCode() {
         return bookCode;
     }
@@ -42,5 +41,8 @@ public abstract class Book {
     public void setAuthor(String author) {
         this.author = author;
     }
-    public abstract double getAmount() ;
+    public abstract double getAmount();
+
+
+
 }
