@@ -1,3 +1,5 @@
+package minitest_16_05_24;
+
 public abstract class Book {
     private int bookCode ;
     private String name ;

@@ -1,3 +1,5 @@
+package minitest_16_05_24;
+
 public class ProgrammingBook extends Book {
     private String language;
     private String framework;

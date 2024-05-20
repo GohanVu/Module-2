@@ -1,3 +1,5 @@
+package minitest_16_05_24;
+
 public class FictionBook extends Book {
    private String category ;
 

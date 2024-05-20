@@ -1,3 +1,5 @@
+package minitest_16_05_24;
+
 public class Main {
     public static void main(String[] args) {
         Book [] books = new Book[6];
