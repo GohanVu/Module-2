@@ -3,6 +3,7 @@ package Test1;
 public class PrimeTest {
     public static void main(String[] args) {
         PrimeTest primeTest = new PrimeTest();
+        primeTest.testIsPrime();
 
     }
     public void  testIsPrime(){
