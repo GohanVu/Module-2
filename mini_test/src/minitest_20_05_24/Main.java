@@ -11,9 +11,16 @@ public class Main {
         employees[5] = new ParttimeEmployee(006,"Paul",23,"0593059533","SampleF@gmail.com",35);
 
         System.out.println("Average Salary: " + getAverageSalary(employees));
-        getEmpSalaryLessThanAverage(employees);
+        System.out.println(" ");
+        double averageSalary = getAverageSalary(employees);
+        System.out.println("Employee's salary less than average salary: ");
+        compareEmpSalary(employees, averageSalary);
+        System.out.println(" ");
         System.out.println("Total salary pay for part time employee: "+getTotalParttimeSalary(employees));
-        getSortFulltimeEmp(employees);
+        System.out.println(" ");
+        FulltimeEmployee [] fulltimeEmployee = getFulltimeList(employees);
+        getSortFulltimeEmp(fulltimeEmployee);
+
 
    }
     public static double getAverageSalary(Employee [] employees) {
@@ -25,17 +32,13 @@ public class Main {
 
         return averageSalary;
     }
-    public static void getEmpSalaryLessThanAverage(Employee [] employees){
-        double averageSalary = getAverageSalary(employees);
+    public static void compareEmpSalary(Employee [] employees, double value){
         for (Employee employee: employees){
-            if (employee.getSalary() < averageSalary){
+            if (employee.getSalary() < value){
                 System.out.println(employee.getName()+" "+employee.getCode()+" "+employee.getSalary());
             }
         }
-        System.out.println("Employee's salary less than average salary: ");
     }
-
-
     public static double getTotalParttimeSalary(Employee [] employees){
         double totalSalaryParttime = 0;
         for (Employee employee : employees){
@@ -47,7 +50,7 @@ public class Main {
         return totalSalaryParttime;
 
     }
-    public  static void getSortFulltimeEmp(Employee [] employees){
+    public static FulltimeEmployee [] getFulltimeList(Employee[] employees){
         int countFulltimeEmployee = 0;
         for (Employee employee : employees){
             if(employee instanceof FulltimeEmployee){
@@ -61,18 +64,21 @@ public class Main {
                 fulltimeEmployees[index++]= (FulltimeEmployee) employee;
             }
         }
-        for (int i = 0; i < fulltimeEmployees.length; i++) {
+        return fulltimeEmployees;
+    }
+    public static void getSortFulltimeEmp(FulltimeEmployee [] employees){
+        for (int i = 0; i < employees.length; i++) {
             int minIndex = i;
-            for (int j = i+1; j < fulltimeEmployees.length; j++) {
-                if (fulltimeEmployees[j].getSalary() < fulltimeEmployees[minIndex].getSalary()){
+            for (int j = i+1; j < employees.length; j++) {
+                if (employees[j].getSalary() < employees[minIndex].getSalary()){
                     minIndex = j;
                 }
             }
-            FulltimeEmployee temp = fulltimeEmployees[minIndex] ;
-            fulltimeEmployees[minIndex] = fulltimeEmployees[i];
-            fulltimeEmployees[i] = temp;
+            FulltimeEmployee temp = employees[minIndex] ;
+            employees[minIndex] = employees[i];
+            employees[i] = temp;
         }
-        for (FulltimeEmployee fulltimeEmployee : fulltimeEmployees){
+        for (FulltimeEmployee fulltimeEmployee : employees){
             System.out.println(fulltimeEmployee.getName()+ " "+fulltimeEmployee.getSalary());
         }
     }
