@@ -1,5 +1,6 @@
 package practice.SimpleListClassImplementation;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 
 public class MyList<E> {
@@ -25,4 +26,5 @@ public class MyList<E> {
         }
         return (E) elements[i];
     }
+
 }
