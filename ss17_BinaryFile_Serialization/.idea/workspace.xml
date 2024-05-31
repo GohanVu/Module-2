@@ -4,16 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8491a0c4-eeed-4821-b7c8-cb6b814874c1" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/example/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss17_BinaryFile_Serialization.iml" beforeDir="false" />
-    </list>
+    <list default="true" id="8491a0c4-eeed-4821-b7c8-cb6b814874c1" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -70,6 +61,7 @@
       <workItem from="1716973651655" duration="663000" />
       <workItem from="1717041749395" duration="21000" />
       <workItem from="1717041780326" duration="50000" />
+      <workItem from="1717064232570" duration="11000" />
     </task>
     <servers />
   </component>
