@@ -10,7 +10,7 @@ import java.util.regex.Pattern;
 public class CrawlSongExample {
     public static void main(String[] args) {
         try{
-            URL url = new URL("https://www.nhaccuatui.com/bai-hat/nhac-tre-moi.html");
+            URL url = new URL("https://www.nhaccuatui.com/bai-hat.html");
             Scanner scanner = new Scanner(new InputStreamReader(url.openStream()));
             scanner.useDelimiter("\\Z");
             String content = scanner.next();
