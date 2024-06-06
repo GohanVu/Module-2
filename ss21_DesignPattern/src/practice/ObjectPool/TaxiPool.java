@@ -28,7 +28,7 @@ public class TaxiPool {
         }
         if(count.get() == NUMBER_OF_TAXI){
             this.waitingUntilTaxiAvailable();
-            return  this.getTaxi();
+            return this.getTaxi();
         }
         Taxi taxi = this.createTaxi();
         inUse.add(taxi);
